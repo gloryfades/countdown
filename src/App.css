@@ -30,3 +30,18 @@
     transform: rotate(360deg);
   }
 }
+
+.Timer{
+  display:flex;
+  justify-content: space-between;
+}
+
+.Box{
+  border: 2px solid #D6D7DA;
+  border-radius: 5px;
+  width: 10em;
+  height: 8em;
+}
+.Enum{
+  color:#A19E9E;
+}
