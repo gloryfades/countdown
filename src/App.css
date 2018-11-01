@@ -32,8 +32,9 @@
 }
 
 .Timer{
+  margin:2em;
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .Box{
@@ -44,4 +45,11 @@
 }
 .Enum{
   color:#A19E9E;
+}
+
+.Input{
+  margin:5em;
+  padding:5em;
+  border: 2px solid #D6D7DA;
+  border-radius: 5px;
 }
