@@ -4,22 +4,6 @@ class Input extends React.Component{
 	constructor(props){
 		super(props);
 	}
-	// handleChange(num, e) {
-	// 	switch(num){
-	// 		case 0:
-	// 		    this.setState({ days: e.target.value });
-	// 			break;
-	// 		case 1:
-	// 			this.setState({ hours: e.target.value });
-	// 			break;
-	// 		case 2:
-	// 			this.setState({ mins: e.target.value });
-	// 			break;
-	// 		case 3:
-	// 			this.setState({ secs: e.target.value });
-	// 			break;
-	// 	} 
- //  	}
 	render(){
 		return (
 			<div>
