@@ -8,8 +8,8 @@ class Box extends React.Component{
 	render(){
 		return (
 			<div className="Box">
-				<h2> {this.state.number} </h2>
-				<p className="Enum">{this.state.enum}</p>
+				<h2> {this.props.num} </h2>
+				<p className="Enum">{this.props.enum}</p>
 			</div>
 		)
 	}

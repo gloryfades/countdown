@@ -46,10 +46,39 @@
 .Enum{
   color:#A19E9E;
 }
-
+label{
+  display:block;
+}
+input[type='number']{
+  width:20em;
+  height: 4em;
+}
+.setButton{
+  margin-top:5em;
+  width: 10em;
+  align-self: center;
+}
+input, select {
+    font-size:12px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 2em;
+    border: 1px solid #D6D7DA;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+}
 .Input{
+  display:flex;
+  flex-direction: column;
   margin:5em;
-  padding:5em;
+  padding: 0 5em 5em 5em;
   border: 2px solid #D6D7DA;
   border-radius: 5px;
+  align-content: center;
+}
+.Set{
+  display:flex;
+  justify-content: space-around;
 }
